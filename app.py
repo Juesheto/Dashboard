@@ -30,6 +30,7 @@ spotify_df['streams'] = pd.to_numeric(spotify_df['streams'], errors='coerce')
 
 # App
 app = Dash(__name__)
+server = app.server
 app.title = "Spotify Popular Songs Dashboard"
 
 # Layout
