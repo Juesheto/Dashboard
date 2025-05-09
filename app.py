@@ -228,7 +228,6 @@ def update_top_songs(selected_year):
     fig.update_layout(xaxis_tickangle=-45, height=500)
     return fig
 
-# ✅ Aquí está la corrección para Render
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port, debug=True)
